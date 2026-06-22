@@ -1,0 +1,21 @@
+# Python virtual environments
+model_service/venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Node dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Next.js build output
+frontend/.next/
+
+# Environment configurations containing master keys/passwords
+backend/.env
+frontend/.env.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
